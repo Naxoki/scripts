@@ -6,4 +6,4 @@ if %errorlevel% neq 0 (
     exit /b
 )
 
-powershell -ExecutionPolicy Bypass -File "D:\scripts\switch-mode.ps1"
+powershell -ExecutionPolicy Bypass -File "%~dp0switch-mode.ps1"
